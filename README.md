@@ -1,10 +1,10 @@
-# 📊 SQL Data Analytics Project  
+# SQL Data Analytics Project  
 
 **Retail Business Analytics using SQL Server — Customer Segmentation, Product Performance & Trend Analysis**
 
 ---
 
-## 🔍 Project Overview
+## Project Overview
 
 This project demonstrates advanced SQL-based business analytics performed on a structured retail dataset.
 
@@ -14,11 +14,11 @@ This repository focuses on translating modeled warehouse data into actionable bu
 
 ---
 
-## 🔗 Built on Top of Data Warehouse
+## Built on Top of Data Warehouse
 
 This project builds upon the SQL Data Warehouse developed in the companion repository:
 
-👉 https://github.com/Pratha-Joshi/sql-data-warehouse-project
+https://github.com/Pratha-Joshi/sql-data-warehouse-project
 
 The analytics queries leverage the **Star Schema (Fact and Dimension tables)** from the Gold layer.
 
@@ -28,7 +28,7 @@ Together, both repositories simulate a real-world workflow:
 
 ---
 
-## 🧠 Business Objectives
+## Business Objectives
 
 Retail businesses need to understand:
 
@@ -41,19 +41,19 @@ This project answers these questions using structured SQL queries designed for p
 
 ---
 
-# 👥 Customer Report
+# Customer Report
 
-## 🎯 Purpose
+## Purpose
 
 To consolidate key customer metrics and behavioral insights that support segmentation, retention strategies, and revenue optimization.
 
-## 📌 Key Analysis Performed
+## Key Analysis Performed
 
-### 1️⃣ Customer Data Consolidation
+### Customer Data Consolidation
 - Extracted core attributes such as name, age, and transaction details  
 - Structured joins across fact and dimension tables  
 
-### 2️⃣ Customer Segmentation
+### Customer Segmentation
 Customers were grouped into 3 segments based on spending behavior:
 
 - **VIP** → At least 12 months of history AND spending > $5000  
@@ -62,14 +62,14 @@ Customers were grouped into 3 segments based on spending behavior:
 
 Customers were also categorized into age groups to analyze demographic trends.
 
-### 3️⃣ Aggregated Customer Metrics
+### Aggregated Customer Metrics
 - Total orders  
 - Total sales  
 - Total quantity purchased  
 - Total unique products purchased  
 - Customer lifespan (in months)
 
-### 4️⃣ Customer KPIs Calculated
+### Customer KPIs Calculated
 - Recency (months since last order)  
 - Average Order Value (AOV)  
 - Average Monthly Spend  
@@ -78,31 +78,31 @@ These metrics help identify high-value customers and retention opportunities.
 
 ---
 
-# 📦 Product Report
+# Product Report
 
-## 🎯 Purpose
+## Purpose
 
 To evaluate product performance, revenue contribution, and lifecycle trends.
 
-## 📌 Key Analysis Performed
+## Key Analysis Performed
 
-### 1️⃣ Product Data Consolidation
+### Product Data Consolidation
 - Extracted product name, category, subcategory, and cost  
 
-### 2️⃣ Revenue-Based Segmentation
+### Revenue-Based Segmentation
 Products were categorized into:
 - High Performers  
 - Mid-Range  
 - Low Performers  
 
-### 3️⃣ Aggregated Product Metrics
+### Aggregated Product Metrics
 - Total orders  
 - Total sales  
 - Total quantity sold  
 - Total unique customers  
 - Product lifespan (in months)
 
-### 4️⃣ Product KPIs Calculated
+### Product KPIs Calculated
 - Recency (months since last sale)  
 - Average Order Revenue (AOR)  
 - Average Monthly Revenue  
@@ -111,7 +111,7 @@ These insights help monitor product lifecycle and profitability.
 
 ---
 
-# 📈 Exploratory & Trend Analysis
+# Exploratory & Trend Analysis
 
 Additional analytical queries include:
 
@@ -126,7 +126,7 @@ These analyses simulate real-world BI use cases such as revenue forecasting, pro
 
 ---
 
-## 💡 Business Impact
+## Business Impact
 
 The analytical reports in this project help:
 
@@ -137,7 +137,7 @@ The analytical reports in this project help:
 
 ---
 
-## 📚 Dataset Source
+## Dataset
 
 The retail dataset used in this project was obtained from a publicly available SQL analytics tutorial by Data With Baraa.
 
